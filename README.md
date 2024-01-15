@@ -1,82 +1,48 @@
 # Cricket-scoreboard-management-system
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricket Scoreboard Management System - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+Overview
+The Cricket Scoreboard Management System is a command-line application designed to keep track of batsmen and bowlers' statistics during a cricket match. It allows users to input details about batsmen and bowlers, view individual player details, display match summaries, and record specific achievements such as highest runs and wickets.
 
-        h1, h2, h3 {
-            color: #333;
-        }
+Features
+1.Batsman Details:
 
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
+Input information about each batsman, including name, runs, balls played, fours, sixes, and more.
+Calculate and display individual batting statistics such as total runs, strike rate, etc.
+2.Bowler Details:
 
-        /* Add more styles as needed */
-    </style>
-</head>
-<body>
+Input information about each bowler, including name, runs given, overs bowled, wickets taken, etc.
+Calculate and display individual bowling statistics such as economy rate.
+3.Match Summary:
 
-    <h1>Cricket Scoreboard Management System</h1>
+Display a comprehensive match summary, including details of each batsman and bowler.
+Show the total runs scored by all batsmen.
+4 Record:
 
-    <h2>Overview</h2>
+Track and display records such as the highest runs scored by a batsman, maximum fours, maximum sixes, and maximum wickets taken by a bowler.
+5 .User-Friendly Interface:
 
-    <p>The Cricket Scoreboard Management System is a command-line application designed to keep track of batsmen and bowlers' statistics during a cricket match. It allows users to input details about batsmen and bowlers, view individual player details, display match summaries, and record specific achievements such as highest runs and wickets.</p>
+The system provides a simple and interactive command-line interface for ease of use.
+Usage
+1.Enter Batsman Details:
 
-    <h2>Features</h2>
+Input the number of batsmen.
+For each batsman, enter details such as name, runs, balls, fours, sixes, etc.
+2.Enter Bowler Details:
 
-    <ol>
-        <li><strong>Batsman Details:</strong> Input information about each batsman, including name, runs, balls played, fours, sixes, and more.</li>
-        <li><strong>Bowler Details:</strong> Input information about each bowler, including name, runs given, overs bowled, wickets taken, etc.</li>
-        <li><strong>Match Summary:</strong> Display a comprehensive match summary, including details of each batsman and bowler.</li>
-        <li><strong>Record:</strong> Track and display records such as the highest runs scored by a batsman, maximum fours, maximum sixes, and maximum wickets taken by a bowler.</li>
-        <li><strong>User-Friendly Interface:</strong> The system provides a simple and interactive command-line interface for ease of use.</li>
-    </ol>
+Input the number of bowlers.
+For each bowler, enter details such as name, runs given, overs bowled, wickets taken, etc.
+3.View Player Details:
 
-    <h2>Usage</h2>
+Choose option 1 to view individual batsman details by entering the player number.
+Choose option 2 to view individual bowler details by entering the player number.
+4.Match Summary:
 
-    <p>1. <strong>Enter Batsman Details:</strong> Input the number of batsmen...</p>
-    <!-- Add more usage details -->
+Choose option 3 to view the match summary, displaying details of all batsmen and bowlers.
+5.Record:
 
-    <h2>Build and Run</h2>
+Choose option 4 to view records such as the highest runs, maximum fours, maximum sixes, and maximum wickets.
+6.Exit:
 
-    <p>- The application is written in C++ and can be compiled using a C++ compiler (e.g., g++).</p>
-    <p>- Compile the code and execute the binary to run the Cricket Scoreboard Management System.</p>
-
-    <!-- Add more sections as needed -->
-
-    <h2>Example</h2>
-
-    <pre>
-    <code>
-    ./cricket_scoreboard_system
-    </code>
-    </pre>
-
-    <h2>Requirements</h2>
-
-    <p>- C++ Compiler</p>
-    <!-- Add more requirements -->
-
-    <h2>Contribution</h2>
-
-    <p>Contributions to enhance and extend the functionality of the Cricket Scoreboard Management System are welcome...</p>
-    <!-- Add contribution details -->
-
-    <h2>License</h2>
-
-    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-
-</body>
-</html>
+Choose option 5 to exit the application.
+Build and Run
+The application is written in C++ and can be compiled using a C++ compiler (e.g., g++).
+Compile the code and execute the binary to run the Cricket Scoreboard Management System.
